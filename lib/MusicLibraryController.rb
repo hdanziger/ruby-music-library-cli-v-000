@@ -24,15 +24,15 @@ class MusicLibraryController
   case input
   when "list songs"
     list_songs
-  when "list_artists"
+  when "list artists"
     list_artists
-  when "list_genres"
+  when "list genres"
     list_genres
-  when "list_artist"
+  when "list artist"
     list_songs_by_artist
-  when "list_genre"
+  when "list genre"
     list_songs_by_genre
-  when "play_song"
+  when "play song"
     play_song
   end
 end
